@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.7",
+    "versionPublish": "2.9",
+    "name": "impresionestico",
+    "favicon": "",
+    "path": "file:///D:/Dropbox/Public/impresionestico",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": ""
+      },
+      "components": []
+    }
+  }
+}
