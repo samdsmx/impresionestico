@@ -112,14 +112,27 @@
 function loadApp() {
 
     // Create the flipbook
-    $('.flipbook').turn({
+    var flipbook = $('.flipbook').turn({
             width:1000,
             height:650,
             elevation: 50,
             gradients: true,
             autoCenter: true
     });
+
+    $(window).on('keydown', function (e) {
+
+    var key = e.which || e.keyCode;
+    if (key == 39) {
+        flipbook.turn("next");
+    } 
+    else if (key == 37) {
+        flipbook.turn("previous");
+    }
+});
 }
+
+
 
 // Load the HTML4 version if there's not CSS transform
 yepnope({
