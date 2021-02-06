@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="assets/socicon/css/socicon.min.css">
   <link rel="stylesheet" href="assets/mobirise/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  <link rel="stylesheet" href="css/floating-wpp.min.css">
   
   
 </head>
@@ -39,6 +40,7 @@
                 </div>
             </div>
         </div>
+        <div id="whatsapp"></div>
     </div>
 </section>
 
@@ -137,6 +139,18 @@ Teléfonos: 7676-7161, 5119-4065<br><br></p>
   <script src="assets/social-likes/social-likes.js"></script>
   <script src="assets/mobirise/js/script.js"></script>
   <script src="assets/formoid/formoid.min.js"></script>
+  <script type="text/javascript" src="js/floating-wpp.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('#whatsapp').floatingWhatsApp({
+        phone: '525545201842',
+        popupMessage: 'Hola! ¿Como podemos ayudarte?',
+        showPopup: true,
+        position: 'right',
+        autoOpenTimeout: 5000,
+      });
+    });
+  </script>
   
   
 </body>
