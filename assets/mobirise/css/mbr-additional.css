@@ -24,6 +24,7 @@
 
 	.pdfPrecios {
 		left: 0px;
+		flex-direction: column;
 	}
 
 	.pdfPrecios img {
@@ -33,7 +34,7 @@
 
 @media (min-width: 769px) {
 	.pdfPrecios {
-		left: 350px;
+		left: 372px;
 	}
 
 	.pdfPrecios img {
