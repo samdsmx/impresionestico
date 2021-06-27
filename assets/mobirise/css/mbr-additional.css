@@ -17,6 +17,30 @@
 	font-family: 'Oswald', sans-serif;
 }
 
+@media (max-width: 768px) {
+	.folleto {
+		display: none;
+	}
+
+	.pdfPrecios {
+		left: 0px;
+	}
+
+	.pdfPrecios img {
+		width: 300px;
+	}
+}
+
+@media (min-width: 769px) {
+	.pdfPrecios {
+		left: 350px;
+	}
+
+	.pdfPrecios img {
+		width: 50px;
+	}
+}
+
 @media (max-width: 545px) {
 	#header1-1 H1 {
 		word-break: break-word;
