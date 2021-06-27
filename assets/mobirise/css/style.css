@@ -1207,6 +1207,7 @@ html {
 }
 .mbr-navbar__hamburger {
   display: none;
+  color: black;
   margin-top: -11px;
   position: absolute;
   right: 0;
