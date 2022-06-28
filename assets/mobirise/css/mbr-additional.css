@@ -10,11 +10,12 @@
 #header1-1 H1 {
 	font-family: 'Indie Flower', cursive;
 	font-size: 80px;
-	color: #000000;
+	color: whitesmoke;
 }
 #header1-1 P {
-	color: #000000;
+	color: whitesmoke;
 	font-family: 'Oswald', sans-serif;
+	font-size: xx-large;
 }
 
 @media (max-width: 768px) {
@@ -54,6 +55,7 @@
 		word-break: break-word;
 		font-size: 35px;
 	}
+}
 
 @media (max-width: 320px) {
 	#header1-1 H1 {
