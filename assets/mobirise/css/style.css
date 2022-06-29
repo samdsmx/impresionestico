@@ -1677,12 +1677,7 @@ html {
   text-align: right;
 }
 .mbr-box__container {
-  height: 35%;
-}
-@media (max-width: 1199px) {
-  .mbr-box__container {
-    height: 40%;
-  }
+  padding-top: 50px;
 }
 .mbr-overlay {
   background: #222;
